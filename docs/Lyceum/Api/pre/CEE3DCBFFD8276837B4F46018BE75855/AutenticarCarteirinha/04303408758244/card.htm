@@ -33,35 +33,8 @@
     </div>
 
 <script type='text/javascript' src='./info.js'></script>
-
-<script>
-    function setData(){
-        date = new Date();
-        const today = date.getDate();
-        const currentMonth = date.getMonth();
-        const currentYear = date.getFullYear();
-        let vencimento = "DEZ";
-
-        if (currentMonth >= 0 && currentMonth <= 6){
-            vencimento = "JUL";
-        }
-
-        var validade = vencimento + "/" + currentYear
-        var text = dt_nascimento;
-        var year = text.split("/");
-        var substring = year[2].slice(0, 2);
-        var new_dt_nascimento = text.replace(substring, "");
-
-        document.getElementById("curso").innerHTML = curso.toUpperCase();
-        document.getElementById("nome").innerHTML = "<b>NOME: </b>" + nome.toUpperCase();
-        document.getElementById("matricula").innerHTML = "<b>MATRICULA: </b>" + matricula.toUpperCase();
-        document.getElementById("rg").innerHTML = "<b>IDENTIDADE: </b>" + rg;
-        document.getElementById("dt_nascimento").innerHTML = "<b>DATA NASCIMENTO: </b>" + new_dt_nascimento;
-        document.getElementById("campus").innerHTML = "<b>CAMPUS: </b>" + campus.toUpperCase();
-        document.getElementById("validade").innerHTML = "VALIDADE: " + validade.toUpperCase();
-    }; 
-    setData()
-</script>
+<script type='text/javascript' src='../scripts/commons.js'></script>
+<script type='text/javascript' src='../scripts/card.js'></script>
 
 </body>
 
