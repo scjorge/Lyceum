@@ -1,0 +1,3 @@
+image: 
+  1050 x 1050
+  https://qrcodefacil.com/
