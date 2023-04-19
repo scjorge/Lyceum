@@ -1,0 +1,10 @@
+const matricula = "N328HE9"
+const nome = "JORGE SILVA DA COSTA"
+const rg = "3060686 SSP/DF"
+const dt_nascimento = "18/09/1993"
+const curso_id = "32015"
+const curso = "Análise e Desenvolvimento de Sistemas"
+const validade = "JUL/2023"
+
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"

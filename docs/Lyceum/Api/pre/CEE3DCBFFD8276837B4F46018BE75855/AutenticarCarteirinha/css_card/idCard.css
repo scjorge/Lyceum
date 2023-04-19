@@ -1,0 +1,385 @@
+
+/**{
+    margin: 00px;
+    padding: 00px;
+    box-sizing: content-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6ebe0;
+    flex-direction: row;
+    flex-flow: wrap;
+
+}
+
+.font{
+    height: 375px;
+    width: 250px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.top {
+    height: 30%;
+    width: 100%;
+    background-color: #3e42cf;
+   
+    position: relative;
+    z-index: 5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+.top .logo {
+     padding-top: 15px;
+     text-align: center;
+ }
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.logo .unip {
+    color: yellow;
+    font-weight: bold;
+ }
+
+.logo .paulista {
+     color: white;
+     background-color: red;
+     padding-right: 1px;
+ }
+
+
+
+.bottom{
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.top img{
+    height: 100px;
+    width: 100px;
+    background-color: #e6ebe0;
+    border-radius: 10px;
+    position: absolute;
+    top:60px;
+    left: 75px;
+    margin-bottom: -5px;
+}
+.bottom p{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    
+    font-size: 20px;*/
+  /*  text-emphasis: spacing;
+*//*}
+.bottom .ra{
+    font-size:14px;
+    
+    font-weight: normal;
+}
+.bottom .nome{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -2px;
+    
+}
+
+.bottom .campus {
+    font-size: 15px;
+}
+
+.bottom .curso {
+    font-size: 15px;
+}
+
+.bottom .rg  {
+    font-size: 15px;
+}
+
+
+.bottom .nasci {
+    font-size: 15px;
+}
+
+
+.bottom .ingresso {
+    font-size: 15px;
+}
+
+.barcode img {
+    height: 62px;
+    width: 65px;
+    text-align: center;
+    margin-bottom: 1px;
+
+  
+}
+.barcode {
+    text-align: center;
+    position: relative;
+    top: 70px;
+   
+}
+
+.back {
+    height: 375px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #3e42cf;
+}
+.qr img{
+    height: 80px;
+    width: 100%;
+    margin: 20px;
+    background-color: white;
+}
+.Details {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+.details-info{
+    color: white;
+    text-align: left;
+    padding: 5px;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 22px;
+}
+
+.logo {
+    height: 40px;
+    width: 150px;
+    padding: 40px;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+    color: white ;
+
+}
+.padding{
+    padding-right: 20px;
+}
+
+@media screen and (max-width:400px)
+{
+    .container{
+        height: 130vh;
+    }
+    .container .front{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .container{
+        height: 130vh;
+    }
+    .container .front{
+        margin-top: 50px;
+    }
+
+}*/
+
+  /*TRECHO ACIMA ORIGINAL*/
+/*====================================================**/
+
+/*TRECHO ABAIXO NOVO PROJETO INICIO 16/11/22 */
+
+/*mobile*/
+@media (orientation:portrait)  {
+    .row {
+        /* height: 35%; */
+        width: 176%;
+        background-color: white;
+        /* height: 40%; */
+        border-style: groove;
+        transform: rotate(90deg);
+        margin-top: 34%;
+        margin-left: -36%;
+        margin-top: 50%;
+    }
+
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .logo {
+        width: 121px;
+        height: 149px;
+        /* background-color: whitesmoke;*/
+        margin-left: 1rem;
+        font-family: sans-serif, Verdana;
+    }
+
+    .imagem {
+        width: 455px;
+    }
+
+    .curso {
+        margin-top: 15px;
+        margin-right: 1rem;
+        font-family: sans-serif, Verdana;
+        font-weight: bolder;
+        /*alteração css 18/11/22*/
+        font-size: 4em;
+    }
+
+    .dados {
+        width: 100%;
+        display: flex;
+        font-family: sans-serif, Verdana;
+        justify-content: space-between;
+        background-image: linear-gradient(rgba(147, 190, 240, 0.986), rgb(202, 237, 238));
+        padding-bottom: 10px;
+        /*alteração css 18/11/22*/
+        font-size: 4em;
+    }
+
+    .barcode {
+        margin-top: 65px;
+        margin-right: 3rem;
+    }
+
+        .barcode img {
+            /*height: 120px;
+            width: 100px;*/
+            height: 257px;
+            width: 264px;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+
+    ul {
+        /*font-weight: bold;*/
+        list-style-type: none;
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+
+    ul, li {
+        padding-bottom: 9px;
+    }
+
+    .rodape {
+        font-family: sans-serif, Verdana;
+        text-align: right;
+        margin-top: 2rem;
+        margin-right: 1rem;
+        font-weight: bolder;
+        /*alteração css 18/11/22*/
+        font-size: 4em;
+    }
+
+}
+
+
+
+/*desktop*/
+@media (orientation:landscape) {
+
+
+    .row {
+
+        transform: rotate(0deg);
+        background-color: white;
+        /* height: 40%; */
+        border-style: groove;
+        width: 700px;
+        /*18-11-2022*/
+    }
+
+    .imagem {
+        width: 200px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .logo {
+        width: 121px;
+       
+        margin-left: 1rem;
+        font-family: sans-serif, Verdana;
+    }
+
+    .curso {
+        margin-top: 15px;
+        margin-right: 1rem;
+        font-family: sans-serif, Verdana;
+        font-weight: bolder;
+    }
+
+    .dados {
+        display: flex;
+        font-family: sans-serif, Verdana;
+        justify-content: space-between;
+        background-image: linear-gradient(rgba(147, 190, 240, 0.986), rgb(202, 237, 238));
+        padding-bottom: 10px;
+    }
+
+    .barcode {
+        margin-top: 1rem;
+        margin-right: 1rem;
+    }
+
+        .barcode img {
+            height: 120px;
+            width: 130px;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+
+    ul {
+        /*font-weight: bold;*/
+        list-style-type: none;
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+
+    ul, li {
+        padding-bottom: 9px;
+    }
+
+    .rodape {
+        font-family: sans-serif, Verdana;
+        text-align: right;
+        margin-top: 2rem;
+        margin-right: 1rem;
+        font-weight: bolder;
+    }
+
+    /*---------------------------------------22-11 ARRUMAR FONTE DADOS-------------------------------------------------------*/
+
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>https://aluno.ead.unip.in/Lyceum/Api/pre/CEE3DCBFFD8276837B4F46018BE75855/AutenticarCarteirinha/</title>
+
+    <link rel="stylesheet" crossorigin="anonymous" href="../css_files/main.css">
+
+</head>
+
+<body cz-shortcut-listen="true">
+    <div style="display: none !important">
+        <matricula id="matricula_"></matricula>
+    </div>
+    <div style="margin-left:2%; margin-right:2%; margin-top:2%; color:#00008b;font-family:Verdana;font-size: 30Px;">
+        <img src="../css_files/logo-unip-2021.svg">
+        <table width="100%" border="0" cellspacing="0" cellpadding="1">
+            <tbody>
+                <tr>
+                    <td colspan="2" align="center">
+                        <b>
+                            <font face="Arial">Dados do Aluno</font>
+                        </b>
+                        <font face="Arial"></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr noshade="" color="blue" size="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:330px;"><b>Matrícula:</b></td>
+                    <td style="text-transform: uppercase;" id="matricula"></td>
+                </tr>
+                <tr>
+                    <td style="width:180px;"><b>Nome:</b></td>
+                    <td style="text-transform: uppercase;" id="nome"></td>
+                </tr>
+                <tr>
+                    <td style="width:180px;"><b>RG:</b></td>
+                    <td style="text-transform: uppercase;" id="rg"></td>
+                </tr>
+                <tr>
+                    <td style="width:180px;"><b>Nascimento:</b></td>
+                    <td style="text-transform: uppercase;" id="dt_nascimento"></td>
+                </tr>
+                <tr>
+                    <td style="width:180px;"><b>Curso:</b></td>
+                    <td style="text-transform: uppercase;" id="curso_id"></td>
+                </tr>
+                <tr>
+                    <td style="width:180px;"><b>Unidade:</b></td>
+                    <td style="text-transform: uppercase;" id="unidade"></td>
+                </tr>
+                <tr>
+                    <td style="width:180px;"><b>Carteirinha:</b></td>
+                    <td style="text-transform: uppercase;">Ativo</td>
+                </tr>
+                <tr>
+                    <td style="width:30px;"><b>Validade:</b></td>
+                    <td style="text-transform: uppercase;" id="validade"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr noshade="" color="blue" size="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="font-size:18px;" id="localData"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+<script type='text/javascript' src='./info.js'></script>
+
+<script>
+    function formataData(data = new Date()) {
+        var dia = data.getDate();
+        var mes = data.getMonth() + 1;
+        var ano = data.getFullYear();
+
+        if (dia.toString().length == 1) dia = '0' + dia;
+        if (mes.toString().length == 1) mes = '0' + mes;
+
+        return "Data: " + dia + '/' + mes + '/' + ano;
+    }
+    function setDataIndex(){
+        document.getElementById("matricula").innerHTML = matricula.toUpperCase();
+        document.getElementById("matricula_").innerHTML = matricula.toUpperCase();
+        document.getElementById("nome").innerHTML = nome.toUpperCase();
+        document.getElementById("rg").innerHTML = rg;
+        document.getElementById("dt_nascimento").innerHTML = dt_nascimento;
+        document.getElementById("curso_id").innerHTML = curso_id + " - " + curso.toUpperCase();
+        document.getElementById("unidade").innerHTML = unidade.toUpperCase();
+        document.getElementById("validade").innerHTML = validade.toUpperCase();
+        document.getElementById("localData").innerHTML = formataData();
+    }; 
+    setDataIndex()
+</script>
+
+
+</html>
