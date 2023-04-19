@@ -36,6 +36,17 @@
 
 <script>
     function setData(){
+        date = new Date();
+        const today = date.getDate();
+        const currentMonth = date.getMonth();
+        const currentYear = date.getFullYear();
+        let vencimento = "DEZ";
+
+        if (currentMonth >= 0 && currentMonth <= 6){
+            vencimento = "JUL";
+        }
+
+        var validade = vencimento + "/" + currentYear
         var text = dt_nascimento;
         var year = text.split("/");
         var substring = year[2].slice(0, 2);
