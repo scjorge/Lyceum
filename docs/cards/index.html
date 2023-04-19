@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="cards"></ul>
+
+</body>
+<script>
+    let data = [
+        ["jorge", "06383408758262"], 
+        ["ster", "04303408758244"],
+    ];
+
+</script>
+
+<script>
+    let basePath = "../Lyceum/Api/pre/CEE3DCBFFD8276837B4F46018BE75855/AutenticarCarteirinha/";
+    let card = "card.htm";
+    
+    data.forEach((item) => {
+        var texto = item[0];
+        var link = basePath + item[1] + "/" + card;
+        var ulist = document.getElementById("cards");
+        var newListItem = document.createElement("li");
+        var newAnchor = document.createElement("a");
+        var space = document.createElement("br");
+        newAnchor.textContent = texto;
+        newAnchor.setAttribute("href", link);
+        newListItem.appendChild(newAnchor);
+        ulist.appendChild(newListItem);
+        ulist.appendChild(space)
+    });
+</script>
+</html>
