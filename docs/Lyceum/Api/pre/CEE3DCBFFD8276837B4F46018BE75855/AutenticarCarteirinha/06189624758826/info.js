@@ -1,0 +1,8 @@
+const matricula = "N680H74"
+const nome = "LARISSA NASCIMENTO NEPOMUCENO DIAS"
+const rg = "3314190 SSP/DF"
+const dt_nascimento = "10/10/1996"
+const curso_id = "32606"
+const curso = "Jornalismo"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
