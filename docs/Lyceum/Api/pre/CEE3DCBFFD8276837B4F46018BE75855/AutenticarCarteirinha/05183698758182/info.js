@@ -1,0 +1,8 @@
+const matricula = "N188H76"
+const nome = "PEDRO IVO SALIBA VIANA"
+const rg = "2410450 SSP/DF"
+const dt_nascimento = "25/11/1991"
+const curso_id = "32605"
+const curso = "Administração"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
