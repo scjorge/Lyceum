@@ -1,0 +1,8 @@
+const matricula = "N783H01"
+const nome = "LUCAS BANDEIRA CUNHA"
+const rg = "7476510 SSP/GO"
+const dt_nascimento = "06/01/2006"
+const curso_id = "35668"
+const curso = "CIÊNCIA DA COMPUTAÇÃO"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
