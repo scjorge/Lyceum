@@ -1,6 +1,6 @@
 const matricula = "N367H02"
 const nome = "LANNA KEURY SOUSA LIMA"
-const rg = "4.050.986 SSP/DF"
+const rg = "4050986 SSP/DF"
 const dt_nascimento = "20/02/2005"
 const curso_id = "38620"
 const curso = "CIÊNCIA DA COMPUTAÇÃO"
