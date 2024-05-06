@@ -1,0 +1,8 @@
+const matricula = "N697H27"
+const nome = "ROBSON MAXSUEL BARBOSA FARIA"
+const rg = "2516194 SSP/DF"
+const dt_nascimento = "02/10/1991"
+const curso_id = "32601"
+const curso = "CIÊNCIA DA COMPUTAÇÃO"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
