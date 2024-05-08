@@ -1,0 +1,8 @@
+const matricula = "N104H22"
+const nome = "ANDRIELLE GOMES MACEDO"
+const rg = "3963969 SSP/DF"
+const dt_nascimento = "08/02/1994"
+const curso_id = "32603"
+const curso = "DIREITO"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
