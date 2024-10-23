@@ -1,0 +1,8 @@
+const matricula = "N402H25"
+const nome = "GABRIELLA FARIAS ALVES"
+const rg = "2704157 SSP/DF"
+const dt_nascimento = "03/07/1995"
+const curso_id = "32601"
+const curso = "CIÊNCIA DA COMPUTAÇÃO"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
