@@ -1,0 +1,8 @@
+const matricula = "N408H11"
+const nome = "NICOLY PALHARES VIEIRA"
+const rg = "6400203 SSP/GO"
+const dt_nascimento = "28/01/2000"
+const curso_id = "37603"
+const curso = "ODONTOLOGIA"
+const unidade = "0130 - GOIÂNIA"
+const campus = "GOIÂNIA"
