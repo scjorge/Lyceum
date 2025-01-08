@@ -1,0 +1,8 @@
+const matricula = "N571H21"
+const nome = "NATÁLIA PALHARES DA CUNHA"
+const rg = "6078577 SSP/DF"
+const dt_nascimento = "15/01/1996"
+const curso_id = "32603"
+const curso = "DIREITO"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
