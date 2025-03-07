@@ -1,0 +1,8 @@
+const matricula = "N721H21"
+const nome = "GUILHERME RODRIGUE CABRAL"
+const rg = "3449817 SSP/DF"
+const dt_nascimento = "24/04/1997"
+const curso_id = "32601"
+const curso = "CIÊNCIA DA COMPUTAÇÃO"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
