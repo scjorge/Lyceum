@@ -1,0 +1,8 @@
+const matricula = "N241H88"
+const nome = "JÉSSICA LORRANE LEMES ROCHA"
+const rg = "5979219 SSPGO"
+const dt_nascimento = "06/11/1996"
+const curso_id = "32603"
+const curso = "DIREITO"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"

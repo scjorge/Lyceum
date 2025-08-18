@@ -1,0 +1,8 @@
+const matricula = "N341H28"
+const nome = "MATHEUS HENRIQUE DE PAULA ROCHA"
+const rg = "2907869 SSPDF"
+const dt_nascimento = "30/01/1992"
+const curso_id = "32601"
+const curso = "CIÊNCIA DA COMPUTAÇÃO"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
