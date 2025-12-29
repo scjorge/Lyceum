@@ -1,7 +1,7 @@
 const matricula = "N241H11"
 const nome = "LARISSA FERREIRA RODRIGUES"
 const rg = "3423521 SSPDF"
-const dt_nascimento = "06/11/1996"
+const dt_nascimento = "04/06/1997"
 const curso_id = "32601"
 const curso = "CIÊNCIA DA COMPUTAÇÃO"
 const unidade = "0130 - BRASILIA"

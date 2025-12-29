@@ -1,7 +1,7 @@
 const matricula = "N241H11"
 const nome = "DALBSON PAULO FREITAS DOS SANTOS"
 const rg = "2885407 SSPDF"
-const dt_nascimento = "06/11/1996"
+const dt_nascimento = "17/01/1994"
 const curso_id = "32601"
 const curso = "CIÊNCIA DA COMPUTAÇÃO"
 const unidade = "0130 - BRASILIA"
