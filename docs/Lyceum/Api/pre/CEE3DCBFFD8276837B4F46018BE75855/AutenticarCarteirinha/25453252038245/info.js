@@ -1,5 +1,5 @@
 const matricula = "N241H11"
-const nome = "EDISON MARTINS ARAUJO"
+const nome = "EDSON MARTINS ARAÚJO"
 const rg = "3423521 SSPDF"
 const dt_nascimento = "20/02/1990"
 const curso_id = "32601"
