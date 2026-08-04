@@ -1,0 +1,8 @@
+const matricula = "N241H11"
+const nome = "DAYANNE RODRIGUES FERREIRA"
+const rg = "3351737 SSPDF"
+const dt_nascimento = "12/04/1997"
+const curso_id = "32618"
+const curso = "PSICOLOGIA"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
