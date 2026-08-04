@@ -1,8 +1,0 @@
-const matricula = "N241H29"
-const nome = "DÉBORA VIANA BARBOSA"
-const rg = "5112177 SPTCGO"
-const dt_nascimento = "25/01/1995"
-const curso_id = "32601"
-const curso = "CIÊNCIA DA COMPUTAÇÃO"
-const unidade = "0130 - BRASILIA"
-const campus = "BRASILIA"

@@ -1,8 +1,0 @@
-const matricula = "N721H21"
-const nome = "SUELI MARIA PEREIRA DO RÊGO"
-const rg = "6925324 SSP/GO"
-const dt_nascimento = "23/05/1976"
-const curso_id = "32604"
-const curso = "PSICOLOGIA"
-const unidade = "0130 - BRASILIA"
-const campus = "BRASILIA"

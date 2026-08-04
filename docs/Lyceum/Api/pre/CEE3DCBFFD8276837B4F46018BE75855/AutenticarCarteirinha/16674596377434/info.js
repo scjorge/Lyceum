@@ -1,8 +1,0 @@
-const matricula = "N206H11"
-const nome = "ANA FLAVIA OLIVEIRA DA CRUZ"
-const rg = "6217039 SSP/GO"
-const dt_nascimento = "15/01/2000"
-const curso_id = "32607"
-const curso = "ODONTOLOGIA"
-const unidade = "0130 - GOIÂNIA"
-const campus = "GOIÂNIA"
