@@ -1,0 +1,8 @@
+const matricula = "N241H85"
+const nome = "GUSTAVO STANLEY DE CAMARGO SANTOS"
+const rg = "3007508 SSPDF"
+const dt_nascimento = "29/04/1997"
+const curso_id = "32601"
+const curso = "CIÊNCIA DA COMPUTAÇÃO"
+const unidade = "0130 - BRASILIA"
+const campus = "BRASILIA"
